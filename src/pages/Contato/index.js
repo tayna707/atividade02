@@ -6,11 +6,11 @@ export default function Inicio() {
         <SafeAreaView style={[styles.container]}>
             <Text style={{color: 'red'}}>Cadastro</Text>
 
-            <TextInput style={{ borderColor: 'green', borderWidth: 2, width: 150, }} value="Nome"></TextInput>
-            <TextInput style={{ borderColor: 'green', borderWidth: 2, width: 150, }} value="E-mail" ></TextInput>
-            <TextInput style={{ borderColor: 'green', borderWidth: 2, width: 150, }} value="CPF"></TextInput>
+            <TextInput style={{ borderColor: 'black', borderWidth: 1, width: 200, backgroundColor: '#d3d3d3', color: 'white' }} value="Nome"></TextInput>
+            <TextInput style={{ borderColor: 'black', borderWidth: 1, width: 200, backgroundColor: '#d3d3d3', color: 'white' }} value="E-mail" ></TextInput>
+            <TextInput style={{ borderColor: 'black', borderWidth: 1, width: 200, backgroundColor: '#d3d3d3', color: 'white' }} value="CPF"></TextInput>
             <View style={{width:100}}>
-                <Button title="Enviar" color={'blue'}
+                <Button title="Enviar" color={'#1c1c1c'}
                     onPress={() => Alert.alert('Cadastro realizado com sucesso!')}></Button>
             </View>
         </SafeAreaView>
